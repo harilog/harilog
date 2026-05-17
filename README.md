@@ -82,12 +82,12 @@
 
 ---
 
-<div align="center">
+<details>
+<summary>📊 GitHub Stats</summary>
 
-## 📊 GitHub Stats
+[![GitHub stats](https://github-readme-stats.vercel.app/api?username=harilog&theme=tokyonight&show_icons=true)](https://github.com/harilog)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=harilog&layout=compact&theme=tokyonight)](https://github.com/harilog)
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=harilog&theme=tokyonight&show_icons=true)](https://github.com/harilog) [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=harilog&layout=compact&theme=tokyonight)](https://github.com/harilog)
-
-</div>
+</details>
 
 ![footer](https://capsule-render.vercel.app/api?type=waving&color=0:809BC4,50:B9B0D6,75:F5CFE9,100:DCEAF9&height=200&section=footer&text=Slowly%20but%20surely%20growing&fontColor=4A4A6A&fontSize=20)
