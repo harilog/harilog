@@ -17,6 +17,7 @@
 ## ⛓️‍💥 Contact & Links
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/harilog) [![Velog](https://img.shields.io/badge/Velog-20C997?style=flat-square&logo=velog&logoColor=white)](https://velog.io/@harilog/posts) [![FullStackFamily](https://img.shields.io/badge/FullStackFamily-000000?style=flat-square&logoColor=white)](https://www.fullstackfamily.com/@black) [![NaverBlog](https://img.shields.io/badge/NaverBlog-03C75A?style=flat-square&logo=naver&logoColor=white)](https://blog.naver.com/kys02_614) [![Instagram](https://img.shields.io/badge/Instagram-FF0069?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/kys02.zip)
+[![NAILED-IT](https://img.shields.io/badge/NAILED--IT-000000?style=flat-square&logo=vercel&logoColor=white)](https://nailed-it-quiz.vercel.app/) [![TiKi](https://img.shields.io/badge/TiKi-000000?style=flat-square&logo=vercel&logoColor=white)](https://tiki-final.vercel.app/)
 
 [![harilog](https://myhits.vercel.app/api/hit/https%3A%2F%2Fgithub.com%2Fharilog?color=gray&label=harilog&size=small&base_count=729)](https://myhits.vercel.app)
 
@@ -53,6 +54,22 @@
 ---
 
 ## 📁 Projects
+
+### 🎫 TiKi
+
+> 실시간 좌석 선점 · QR 티켓 발급 · 입장 검증까지 지원하는 티켓 거래 플랫폼 (팀 프로젝트) · 2026.05.28 ~ 2026.07.08
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+
+**담당: 마이페이지 · QR 입장검증 · 스태프 권한 도메인 · 문의/리뷰**
+- 마이페이지: 친구 요청 · 수락 · 거절 · 삭제, 액션형 알림, 티켓 공유(수량 검증 · 회수), 받은 티켓 조회, QR 생성, 예매 취소
+- QR 입장검증: HMAC-SHA256 서명 기반 티켓 발급/검증 (5분 TTL), 토큰 · 8자리 코드 이중 입력 검증
+- 스태프 권한: 초대/수락/거절/제거, 구매자 ↔ 스태프 역할 전환, 스태프 체크인 스캔 페이지
+- 문의/리뷰: CRUD 및 RLS 정책, 답변 알림 RPC, 공유받은 티켓 리뷰 자격 검증(SQL UNION RPC)
+- CI 파이프라인 구축(GitHub Actions) 및 크로스플랫폼 이슈 해결
+- 동시성 버그 QA 및 수정 (예매 취소 가드, 친구 요청 이메일 대소문자, 티켓 공유 TOCTOU)
+
+🔗 [Repository](https://github.com/FRONTENDBOOTCAMP-17th/tiki) · 🚀 [Demo](https://tiki-final.vercel.app/)
 
 ---
 
